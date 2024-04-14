@@ -12,10 +12,6 @@ ecg csv data:
 - --> rows 112305:114304 (~5.5 minutes starting from WPW timestamp)
 - --> rows 204389:206388 (~5.5 minutes starting from normal sinus rhythm timestamp)
 
-WPW-Automated:
--contains all WPW ECGS from this database: https://data.mendeley.com/datasets/6jd4rn2z9x/1
--still need to convert them to a .csv (now in .xlsx)
--each file has 12 leads, 10 second segments, Fs=500Hz
 WPW-Automated: 
 - contains all WPW ECGs from this database: https://data.mendeley.com/datasets/6jd4rn2z9x/1
 - still need to convert them to a .csv (now in .xlsx)
