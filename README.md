@@ -16,3 +16,11 @@ WPW-Automated:
 -contains all WPW ECGS from this database: https://data.mendeley.com/datasets/6jd4rn2z9x/1
 -still need to convert them to a .csv (now in .xlsx)
 -each file has 12 leads, 10 second segments, Fs=500Hz
+WPW-Automated: 
+- contains all WPW ECGs from this database: https://data.mendeley.com/datasets/6jd4rn2z9x/1
+- still need to convert them to a .csv (now in .xlsx)
+- each file has 12 leads, 10 second segments, Fs=500Hz
+  
+WPW_Automated_China_CSV
+- 100 WPW ECGs converted to CSV format
+
