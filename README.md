@@ -20,3 +20,20 @@ WPW-Automated:
 WPW_Automated_China_CSV
 - 100 WPW ECGs converted to CSV format
 
+WPW_PTB-XL: 
+- 79 WPW ECGs
+- .dat file --> find way to convert!
+- each file has 12 leads, 10 second segments, Fs=500Hz
+- from PTB-XL Database
+
+Normal_PTB-XL: 
+- 97 normal ECGs from PTB-XL database
+- .dat file --> find way to convert!
+- each file has 12 leads, 10 second segments, Fs=500Hz
+
+
+Normal_PTB-XL-pt2: 
+- remaining 23 normal ECGs from PTB-XL database (couldn't upload more than 100 files at once)
+- .dat file --> find way to convert!
+- each file has 12 leads, 10 second segments, Fs=500Hz
+
