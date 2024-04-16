@@ -37,3 +37,8 @@ Normal_PTB-XL-pt2:
 - .dat file --> find way to convert!
 - each file has 12 leads, 10 second segments, Fs=500Hz
 
+RN2 Folder
+- Contains 5 data augmentation subfunctions that take a lead vector (length 5000) as input
+- Data augmentation functions are: gaussian noise, baseline wander, line noise, dropout, and butterworth
+- Combined_ECG_Augmentation combines 2 augmentations per larger augmentation --> creates 4 output (raw & combined augmentations 1,2, & 3)
+
