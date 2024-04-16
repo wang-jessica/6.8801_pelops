@@ -25,6 +25,9 @@ for n = 1:length(fileList)
     I  = T(3:end,1);
     VI = T(3:end,7);
 
+    %Convert tables to two columns 
+    I_VI = [I VI];
+
     % Construct the new filename for the MAT file
     newFileName = fullfile(fileList(n).folder, [fileList(n).name(1:end-4), '_ECG.mat']);
     
