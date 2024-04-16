@@ -32,7 +32,7 @@ for n = 1:length(fileList)
     newFileName = fullfile(fileList(n).folder, [fileList(n).name(1:end-4), '_ECG.mat']);
     
     % Save the variables to a MAT file
-    save(newFileName, 'I',"VI");
+    save(newFileName, 'I_VI');
 end
 
 disp(['Sucess!' , num2str(length(fileList)),'files have been converted to .mat']);
