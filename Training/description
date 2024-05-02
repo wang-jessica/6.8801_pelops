@@ -1,0 +1,8 @@
+77 WPW Patients, filename has "WPW_augmented.csv" at the end
+118 Normal Patients, filename has "NORM_augmented.csv" at the end
+
+For each csv: 10 second clip
+- Column 1: original signal
+- Column 2: random augmentation 1
+- Column 3: random augmentation 2 
+- Column 4: random augmentation 3 
