@@ -1,6 +1,27 @@
-# 6.8801_pelops
+# 6.8801 Final Project - Team Pelops
 
-general data notes:
+This repository has all code and raw data for the project titled "Diagnosis of Wolff-Parkinson-White Syndrome from Lead 1
+Electrocardiograms using Time-Frequency Analysis and Deep Learning" submitted for a final project of 6.8801 at MIT taught by Dr.
+Ridwan Alam. 
+
+There are  raw data files from the PTBXL and China datasets, along with preprocessing scripts to convert these to CSVs. Chiefly, 
+the data is contained in any folder marked 'PTB-XL' or 'China,' and the corresponding code is in any script annotated with 'preprocessing.'
+
+Training data, consisting of augmented ECGs in CSV format, is given in in the Training Data folder as .zip files. Each file is a 
+10-second ECG clip. File names that are appended with _1 are original patient data, while file names appended with 2-4 are augmented
+data. 
+
+Code for time-domain augmentation is given in ECG_augment.m. 
+
+Wavelet analysis to generate 2D scalograms is performed by gen_images.m. 
+
+Finally, training of deep learning model and calculation of performance metrics is given in train.m. 
+
+
+
+
+
+misc. notes:
 - patient 230 has instance of WPW at timestamp 5:11
 - https://archive.physionet.org/physiobank/database/html/mitdbdir/records.htm#230 
 
