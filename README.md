@@ -11,7 +11,7 @@ Training data, consisting of augmented ECGs in CSV format, is given in in the Tr
 10-second ECG clip. File names that are appended with _1 are original patient data, while file names appended with 2-4 are augmented
 data. 
 
-Code for time-domain augmentation is given in ECG_augment.m. 
+Code for time-domain augmentation used to generate example figures is given in ECG_augment.m. Code for performing augmentations of all of our data at once if found in the RN2 folder in the file integrated_loading_augmentations.m
 
 Wavelet analysis to generate 2D scalograms is performed by gen_images.m. 
 
